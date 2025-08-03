@@ -26,13 +26,13 @@ h1{
     display: flex;
     box-shadow: .5em .5em 1em rgba(0,0,0,0.2); 
     margin:auto;
-    width:60%;
+    width:70%;
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease-in;
 }
 #head:hover{
-    width: 65%;
+    width: 75%;
     box-shadow: 1.5em 1.5em .8em rgba(0,0,0,0.3); ;
 }
 input {
@@ -84,7 +84,7 @@ table tr td i {
 }
 @media (max-width: 768px) {
     h1{
-        font-size: 3em;
+        font-size: 2.5em;
     }
         
     input, #add1 {
@@ -127,3 +127,4 @@ tr:hover{
     box-shadow:.5em .5em 1em rgba(0,0,0,0.2); ;
 
 }
+
