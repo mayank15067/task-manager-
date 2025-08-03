@@ -83,6 +83,10 @@ table tr td i {
     font-weight: 500;
 }
 @media (max-width: 768px) {
+    h1{
+        font-size: 3em;
+    }
+        
     input, #add1 {
         width: 100%;
         margin: 5px 0;
@@ -121,4 +125,5 @@ td {
 }
 tr:hover{
     box-shadow:.5em .5em 1em rgba(0,0,0,0.2); ;
+
 }
